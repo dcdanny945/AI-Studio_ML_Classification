@@ -84,7 +84,26 @@ It enables EcoExplorer to proactively identify at-risk users and prioritise impr
 ## Files
  
 - `MIS772_A1_Danny_Chen_s226000331_Correlation.rmp` — Data preparation and correlation analysis workflow
-- `MIS772_A1_Danny_Chen_s226000331_RandomForest_Depth_4.rmp` — Random Forest model (recommended)
-- `MIS772_A1_Danny_Chen_s226000331_AdaBoost_Depth_4.rmp` — AdaBoost model
-- `MIS772_A1_Danny_Chen_s226000331_Stacking_Depth_4.rmp` — Stacking ensemble model
+  
+  ![Screenshot 1](./Screenshot/Data_preparation.png)
+  ![Screenshot 1](./Screenshot/Data_preparation_Correlation.png)
+  
+- `MIS772_A1_Danny_Chen_s226000331_AdaBoost_Depth_4.rmp` — AdaBoost model, iterations 100, DTs Max depth 4
+  ![Screenshot 1](./Screenshot/AdaBoost_design.png)
+  ![Screenshot 1](./Screenshot/AdaBoost_design_AUC.png)
+  ![Screenshot 1](./Screenshot/AdaBoost_design_Kappa.png)
+  ![Screenshot 1](./Screenshot/AdaBoost_design_Accuracy.png)
+- `MIS772_A1_Danny_Chen_s226000331_Stacking_Depth_4.rmp` — Stacking ensemble model, DTs, KNN, Naive Bayes
+
+  ![Screenshot 1](./Screenshot/Stacking_ensemble_design.png)
+  ![Screenshot 1](./Screenshot/Stacking_ensemble_vote.png)
+  ![Screenshot 1](./Screenshot/Stacking_ensemble_AUC.png)
+  ![Screenshot 1](./Screenshot/Stacking_ensemble_accuracy.png)
+  ![Screenshot 1](./Screenshot/Stacking_ensemble_kappa.png)
+- `MIS772_A1_Danny_Chen_s226000331_RandomForest_Depth_4.rmp` — **Random Forest model (recommended)**
+  
+  ![Screenshot 1](./Screenshot/Random_forest_design.png)
+  ![Screenshot 2](./Screenshot/Random_forest_design_AUC.png)
+  ![Screenshot 3](./Screenshot/Random_forest_design_accuracy.png)
+  ![Screenshot 4](./Screenshot/Random_forest_design_kappa.png)
 
